@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa", "..\..\elsa-core\src
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Workflows.Core", "..\..\elsa-core\src\modules\Elsa.Workflows.Core\Elsa.Workflows.Core.csproj", "{D747A690-A68E-5295-85EC-A92E3A66D0FC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Workflows.Management", "..\..\elsa-core\src\modules\Elsa.Workflows.Management\Elsa.Workflows.Management.csproj", "{0DDFD06D-30E9-7E29-A8AA-08EB814182E6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Elsa.Workflows.Runtime", "..\..\elsa-core\src\modules\Elsa.Workflows.Runtime\Elsa.Workflows.Runtime.csproj", "{3D262B32-E564-BFB0-025C-BC24BB37C39B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{D747A690-A68E-5295-85EC-A92E3A66D0FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D747A690-A68E-5295-85EC-A92E3A66D0FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D747A690-A68E-5295-85EC-A92E3A66D0FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0DDFD06D-30E9-7E29-A8AA-08EB814182E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DDFD06D-30E9-7E29-A8AA-08EB814182E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DDFD06D-30E9-7E29-A8AA-08EB814182E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DDFD06D-30E9-7E29-A8AA-08EB814182E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D262B32-E564-BFB0-025C-BC24BB37C39B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D262B32-E564-BFB0-025C-BC24BB37C39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D262B32-E564-BFB0-025C-BC24BB37C39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D262B32-E564-BFB0-025C-BC24BB37C39B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
